@@ -1,0 +1,81 @@
+$date
+	Fri Nov 03 01:13:25 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module register_tb $end
+$var wire 8 ! Q [7:0] $end
+$var reg 1 " Clk $end
+$var reg 8 # D [7:0] $end
+$var reg 1 $ RD $end
+$var reg 1 % Rst $end
+$var reg 1 & WR $end
+$scope module rg $end
+$var wire 1 " Clk $end
+$var wire 8 ' D [7:0] $end
+$var wire 1 $ RD $end
+$var wire 1 % Rst $end
+$var wire 1 & WR $end
+$var parameter 32 ( n $end
+$var reg 8 ) Data [7:0] $end
+$var reg 8 * Q [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 (
+$end
+#0
+$dumpvars
+bx *
+bx )
+b0 '
+1&
+1%
+1$
+b0 #
+1"
+bx !
+$end
+#10
+bz !
+bz *
+0"
+#20
+1"
+b110101 #
+b110101 '
+0&
+#30
+b110101 )
+0"
+#40
+1"
+1&
+0$
+#50
+b110101 !
+b110101 *
+0"
+#60
+1"
+0%
+1$
+#70
+b0 )
+bz !
+bz *
+0"
+#80
+1"
+1%
+0$
+#90
+b0 !
+b0 *
+0"

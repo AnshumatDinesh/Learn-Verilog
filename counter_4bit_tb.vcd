@@ -1,0 +1,59 @@
+$date
+	Thu Nov 02 19:27:04 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module counter_4bit_tb $end
+$var wire 4 ! Y [3:0] $end
+$var reg 1 " Clk $end
+$var reg 1 # Rst $end
+$scope module c4b $end
+$var wire 1 " Clk $end
+$var wire 1 # Rst $end
+$var reg 4 $ Y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 $
+1#
+0"
+b0 !
+$end
+#10
+b1 !
+b1 $
+1"
+#20
+0"
+#30
+b10 !
+b10 $
+1"
+#40
+0"
+#50
+b11 !
+b11 $
+1"
+#60
+0"
+#70
+b100 !
+b100 $
+1"
+#80
+0"
+0#
+#90
+b0 !
+b0 $
+1"
