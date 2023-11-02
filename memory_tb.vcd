@@ -1,0 +1,100 @@
+$date
+	Fri Nov 03 01:38:47 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module memory_tb $end
+$var wire 8 ! Dout [7:0] $end
+$var reg 7 " Add [6:0] $end
+$var reg 1 # CS $end
+$var reg 1 $ Clk $end
+$var reg 8 % Din [7:0] $end
+$var reg 1 & RD $end
+$var reg 1 ' WR $end
+$scope module mem $end
+$var wire 7 ( Add [6:0] $end
+$var wire 1 # CS $end
+$var wire 1 $ Clk $end
+$var wire 8 ) Din [7:0] $end
+$var wire 1 & RD $end
+$var wire 1 ' WR $end
+$var parameter 32 * ADDRESS_LINES $end
+$var parameter 32 + BIT_DEPTH $end
+$var parameter 32 , LENGTH $end
+$var reg 8 - Dout [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000000 ,
+b1000 +
+b111 *
+$end
+#0
+$dumpvars
+bx -
+b0 )
+b0 (
+1'
+1&
+b0 %
+1$
+1#
+b0 "
+bx !
+$end
+#10
+bz !
+bz -
+0$
+#20
+1$
+0#
+0'
+b110101 %
+b110101 )
+#30
+0$
+#40
+1$
+b1 "
+b1 (
+b1010011 %
+b1010011 )
+#50
+0$
+#60
+1$
+b0 "
+b0 (
+1'
+0&
+b110101 %
+b110101 )
+#70
+b110101 !
+b110101 -
+0$
+#80
+1$
+b1 "
+b1 (
+0'
+b1010011 %
+b1010011 )
+#90
+b1010011 !
+b1010011 -
+0$
+#100
+1$
+1#
+#110
+bz !
+bz -
+0$
