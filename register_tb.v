@@ -8,7 +8,7 @@ module register_tb ();
     register #(.n(8)) rg (.Q(Q),.D(D),.Clk(Clk),.RD(RD),.WR(WR),.Rst(Rst));
 
     initial begin
-        $dumpfile("$register_tb.vcd");
+        $dumpfile("register_tb.vcd");
         $dumpvars(0,register_tb);
         $monitor("Time=%t\tD=%h\tClk=%b\tRD=%b\tWR=%b\tRst=%b\tQ=%h\n",$time,D,Clk,RD,WR,Rst,Q);
         RD=1'b1;
